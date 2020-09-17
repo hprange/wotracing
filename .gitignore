@@ -1,0 +1,14 @@
+# Eclipse files
+.classpath
+.project
+.settings
+
+# Intellij files
+.idea
+wotracing.iml
+
+# Maven files
+target
+
+#WebObjects files
+build
