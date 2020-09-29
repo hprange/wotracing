@@ -38,6 +38,8 @@ class TestWOTracing {
 
     @BeforeEach
     public void setup() {
+        ERXProperties.setStringForKey("true", "wotracing.enabled");
+
         tracer = new MockTracer();
 
         tracing = new WOTracing(tracer);

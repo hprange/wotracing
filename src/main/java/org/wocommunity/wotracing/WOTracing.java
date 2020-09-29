@@ -19,7 +19,7 @@ public class WOTracing extends ERXFrameworkPrincipal {
     public final static Class<?>[] REQUIRES = new Class[]{ERXExtensions.class};
 
     /**
-     * Option to enable/disable WOTracing. (default: true)
+     * Option to enable/disable WOTracing. (default: false)
      */
     public static final String WOTRACING_ENABLED = "wotracing.enabled";
 
@@ -54,7 +54,7 @@ public class WOTracing extends ERXFrameworkPrincipal {
         requireNonNull(tracer, "Cannot initialize WOTracing with null Tracer. Please, provide a OpenTracing compatible implementation.");
 
         this.tracer = tracer;
-        this.isTracingEnabled = ERXProperties.booleanForKeyWithDefault(WOTRACING_ENABLED, true);
+        this.isTracingEnabled = ERXProperties.booleanForKeyWithDefault(WOTRACING_ENABLED, false);
     }
 
 
