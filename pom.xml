@@ -4,7 +4,7 @@
 	<groupId>org.wocommunity</groupId>
 	<artifactId>wotracing</artifactId>
 	<packaging>woframework</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>WebObjects Tracing Framework</name>
 	<description>OpenTracing integration for WebObjects applications.</description>
 	<url>http://github.com/hprange/wotracing</url>
@@ -146,6 +146,6 @@
 		<connection>scm:git:git@github.com:hprange/wotracing.git</connection>
 		<url>scm:git:git@github.com:hprange/wotracing.git</url>
 		<developerConnection>scm:git:git@github.com:hprange/wotracing.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>wotracing-1.0</tag>
 	</scm>
 </project>
